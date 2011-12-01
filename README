@@ -1,0 +1,41 @@
+CyanogenMod 7.10 Kang port for 
+Mediacom MP810C 
+AKA Prestigio Multipad PMP5080B
+AKA Intenso Live Tab
+AKA bq keplero
+AKA RK2918
+
+by ElDiau
+
+This project aims to port a fully functional CyanogenMod 7 to the Mediacom MP810C 8" tablet
+
+#####################################################
+Based in fun_ port for Teclast T760
+#####################################################
+
+Working:
+- It boots!
+- Ext3 system with full root
+- seems to be stable
+- 3D Acceleration
+- Sound
+- Usb storage and adb
+
+NOT working:
+- wpasupplicant can't get IP
+- inverted accelerometers
+- sluggish gui
+- battery chatge indicator
+- many many other things
+
+Todo:
+- Fixing bugs
+- add gapps
+- add fingerprint for tablets
+- bluetooth GPS, and USB 3G internet dongles
+- clockworks recovery (nandroid ecc...)
+- move system to yaffs2
+
+Changelog:
+30/11/2011
+- firs beta release
